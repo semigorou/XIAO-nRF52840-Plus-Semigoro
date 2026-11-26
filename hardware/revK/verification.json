@@ -1,0 +1,73 @@
+{
+  "revision": "K",
+  "orientation": "XIAO component face toward carrier",
+  "height_adjusted_by_user": true,
+  "board_thickness_mm": 1.6,
+  "drc_violations": 0,
+  "unconnected": 0,
+  "pth_hits": 154,
+  "npth_hits": 16,
+  "drills_match_board": true,
+  "archive_sha256": "3884e2f31f042cebf16e699960aa9d894cdf9f457fc13c07ad8a88b1499f4d55",
+  "files": [
+    {
+      "name": "Y13-XIAO-revK-inward-B_Cu.gbl",
+      "bytes": 31114,
+      "sha256": "d0450cc6a5f6507c5a1ea0ef975a64085259d5a147ebdafad1429cceb388cc52"
+    },
+    {
+      "name": "Y13-XIAO-revK-inward-B_Mask.gbs",
+      "bytes": 4826,
+      "sha256": "aa73112b3a31506f617d88e0113480984a1741311e35f3b2bef00c96e725caa6"
+    },
+    {
+      "name": "Y13-XIAO-revK-inward-B_Silkscreen.gbo",
+      "bytes": 96673,
+      "sha256": "f344397d3a0ec2e2e692b5fefd1d98a305d861402d89bb670c14fc065bf2e790"
+    },
+    {
+      "name": "Y13-XIAO-revK-inward-Edge_Cuts.gm1",
+      "bytes": 9100,
+      "sha256": "54fa375c6673f22caade801b75b17e00b47a42ae9c9a9547c1a14111fd0dd843"
+    },
+    {
+      "name": "Y13-XIAO-revK-inward-F_Cu.gtl",
+      "bytes": 28953,
+      "sha256": "24845da4710acdca96b81632360481b29c59785d3edd87f846b33268ecc8141a"
+    },
+    {
+      "name": "Y13-XIAO-revK-inward-F_Mask.gts",
+      "bytes": 5445,
+      "sha256": "e31b07b48c1ecabda370e5c2293282de25e4eac40624449dbffc6f868308b1b8"
+    },
+    {
+      "name": "Y13-XIAO-revK-inward-F_Silkscreen.gto",
+      "bytes": 95113,
+      "sha256": "3a716098ddd5498b26b84d3d3e12528f670bcd7171274e79966f0dacaa403f3e"
+    },
+    {
+      "name": "Y13-XIAO-revK-inward-job.gbrjob",
+      "bytes": 2595,
+      "sha256": "183221dd3d4081e8226c80679e2b1bc7b9bc4ec4e78d28f2a9ea2a35dac7c0a6"
+    },
+    {
+      "name": "Y13-XIAO-revK-inward-NPTH.drl",
+      "bytes": 694,
+      "sha256": "2cde0298aa1245dd63aedd9736069c1c708e4e29216f5698fc14e300a02de8f7"
+    },
+    {
+      "name": "Y13-XIAO-revK-inward-PTH.drl",
+      "bytes": 3026,
+      "sha256": "9456e482e4494de81eeb02e5c92948202bd0c100f1d519a7e6d3f40d47a6e6c1"
+    }
+  ],
+  "switch_mount_sides": {
+    "left": "F",
+    "right": "F"
+  },
+  "module_mount_sides": {
+    "left": "B",
+    "right": "B"
+  },
+  "mount_configuration": "Both XIAO modules on B with components toward carrier; all power/reset switches on F."
+}

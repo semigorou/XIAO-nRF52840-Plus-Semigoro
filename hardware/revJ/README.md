@@ -1,3 +1,5 @@
+> **旧構成です。** 最新の指定「マイコンは左右ともB面、電源・RESETは左右ともF面」は[Rev K](../revK/README.md)に反映しました。
+
 # Rev J 修正版試作基板
 
 **[発注用Gerber ZIP](Y13-XIAO-revJ-order-gerbers.zip?raw=true)**
