@@ -1,13 +1,15 @@
-# Charybdis / XIAO nRF52840 Plus / Rev H PCB
+# Charybdis / XIAO nRF52840 Plus / Rev J PCB
 
-Y13 Rev H試作基板とXIAO用ZMK設定。Rev HでもGPIO信号の割当はRev Gから維持しています。左右各XIAO nRF52840 Plus、左エンコーダー、右PMW3610に対応する試作用ファームウェアです。ビルド成功と実機動作確認は別です。実機試験はこれからです。
+> **Rev Jの実装面は実物との照合待ちです。** 電源スイッチの位置決め穴（左右2個ずつ）とB+等の印字を修正しました。左はB面、右はF面の指定です。旧Rev IのGerberも左B面だったため、実物で同じ面になったという報告は、発注ZIPと基板の両面写真との照合が必要です。詳細は[検証記録](hardware/revJ/verification-report.md)を参照してください。
+
+Y13 Rev J試作基板とXIAO用ZMK設定。Rev JでもGPIO信号の割当はRev Gから維持しています。左右各XIAO nRF52840 Plus、左エンコーダー、右PMW3610に対応する試作用ファームウェアです。ビルド成功と実機動作確認は別です。実機試験はこれからです。
 またPCBについては、もともとnice!nano v2を搭載するPCBをベースに設計してます。nice!nano v2はBluetooth通信に対応していますが、日本の技適認証を取得していないため、日本国内での使用を想定し、技適認証に対応したXIAO nRF52840 Plusへ変更しました。
 
-## Rev H 基板の発注データ
+## Rev J 基板の発注データ
 
-**[発注用Gerber ZIP](hardware/revH/Y13-XIAO-revH-order-gerbers.zip?raw=true)** · **[基板画像・発注／組立メモ](hardware/revH/README.md)**
+**[発注用Gerber ZIP](hardware/revJ/Y13-XIAO-revJ-order-gerbers.zip?raw=true)** · **[基板画像・発注／組立メモ](hardware/revJ/README.md)**
 
-2層・FR-4・板厚1.6 mm。XIAOの部品面をキャリアへ向けるRev Hです。旧Rev G以前のGerberは使用しないでください。取付高さと支持部材は実物で調整する前提の少量試作用で、ケース適合・電池充電・実機動作は未検証です。
+2層・FR-4・板厚1.6 mm。XIAOの部品面をキャリアへ向けるRev Jです。旧Rev G以前のGerberは使用しないでください。取付高さと支持部材は実物で調整する前提の少量試作用で、ケース適合・電池充電・実機動作は未検証です。
 
 左4×6＋5＝29キー、右4×6＋3＝27キー＋トラックボールに対応します。UF2名のrevGは既存ファームウェアの名前で、旧基板の取付方向を示すものではありません。
 
@@ -43,7 +45,7 @@ USB位置の公差、ピン・スペーサーの固定と絶縁、スイッチ�
 
 ## 配線・変更
 
-`docs/wiring.csv`がRev HのXIAO―キャリア対応、`docs/trackball.csv`が右の横一列6端子です。XIAOへの追加線は左7本・右6本、合計13本（任意BAT−補助線を除く）。主端子14本だけでは全機能は接続されません。
+`docs/wiring.csv`がRev JのXIAO―キャリア対応、`docs/trackball.csv`が右の横一列6端子です。XIAOへの追加線は左7本・右6本、合計13本（任意BAT−補助線を除く）。主端子14本だけでは全機能は接続されません。
 
 行はD1/D2/D4/D5/D7、列はD3/D0/D9/D10/D11/D12。ダイオード方向は元設定の`row2col`を維持。ボール方向・感度は既存設定を継承し、実物で必要なら調整します。予備GPIOの用途を追加する場合は対応する設定も変更してください。
 

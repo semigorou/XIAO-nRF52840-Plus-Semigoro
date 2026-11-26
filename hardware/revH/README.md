@@ -1,3 +1,5 @@
+> **旧版です。** 電源スイッチ位置決め穴の欠落と印字をRev Jで修正しました。左実装面の実物照合は進行中です。[Rev Jの検証記録](../revJ/verification-report.md)をご確認ください。
+
 # Rev H 試作基板
 
 **発注用：[Y13-XIAO-revH-order-gerbers.zip](Y13-XIAO-revH-order-gerbers.zip?raw=true)**
