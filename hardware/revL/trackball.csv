@@ -1,0 +1,7 @@
+sensor_pad,carrier_endpoint,xiao_pad
+GND,J8:1,GND
+MOTION,J8:2,D6
+SCLK,J8:3,D8
+SDIO,J8:4,D19
+CS,J8:5,D13
+VCC,J8:6,3V3 via R_SENSOR

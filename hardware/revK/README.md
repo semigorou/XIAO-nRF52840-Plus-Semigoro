@@ -1,3 +1,5 @@
+> 製品名をF面へ追加した最新版は[Rev L](../revL/README.md)です。
+
 # Rev K 基板
 
 **[発注用Gerber ZIP](Y13-XIAO-revK-order-gerbers.zip?raw=true)**
