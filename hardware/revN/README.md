@@ -1,3 +1,5 @@
+**追加端子対応の新版：[Rev O](../revO/README.md)。このRev Nは追加端子の手配線を前提にした旧版です。**
+
 # XIAO nRF52840 Plus - Semigorou / Rev N
 
 **[発注用Gerber ZIP](Y13-XIAO-revN-order-gerbers.zip?raw=true)**

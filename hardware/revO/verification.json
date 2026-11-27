@@ -1,0 +1,81 @@
+{
+  "revision": "O",
+  "orientation": "XIAO component face toward carrier",
+  "height_adjusted_by_user": true,
+  "board_thickness_mm": 1.6,
+  "drc_violations": 0,
+  "unconnected": 0,
+  "pth_hits": 183,
+  "npth_hits": 16,
+  "drills_match_board": true,
+  "archive_sha256": "f23705fe12520bf2e26dcd13bbaf5eb551938125c2f63ef22fe76164b9d4ca77",
+  "files": [
+    {
+      "name": "Y13-XIAO-revO-inward-B_Cu.gbl",
+      "bytes": 36417,
+      "sha256": "453b8894216655041ac3b64a285d7ecdc9c72093e608037a26c7a38e3723b2a6"
+    },
+    {
+      "name": "Y13-XIAO-revO-inward-B_Mask.gbs",
+      "bytes": 5080,
+      "sha256": "4659a686383c5ff6d0301b037a72cb567d8cbb60fd22e41333b209af0b45ca5b"
+    },
+    {
+      "name": "Y13-XIAO-revO-inward-B_Silkscreen.gbo",
+      "bytes": 139677,
+      "sha256": "55d7e9eeb037fa9002d3540367a13d0f668f4ec6a3c4bb78ef71451dfcf9e0ac"
+    },
+    {
+      "name": "Y13-XIAO-revO-inward-Edge_Cuts.gm1",
+      "bytes": 9100,
+      "sha256": "690bea5b14c9bb44eb3c6212b0fcff4ac04625cbb46ee41a726a9eee865c4e98"
+    },
+    {
+      "name": "Y13-XIAO-revO-inward-F_Cu.gtl",
+      "bytes": 32675,
+      "sha256": "1e098cf7a0a76c9b6b71911bf3fa7bab8c869bdb77fe8185612b84a419c996f5"
+    },
+    {
+      "name": "Y13-XIAO-revO-inward-F_Mask.gts",
+      "bytes": 5699,
+      "sha256": "4a443797fd4e3b28f4eb66c4125f59d9eaecb6e936120165955ce880e3af67b4"
+    },
+    {
+      "name": "Y13-XIAO-revO-inward-F_Silkscreen.gto",
+      "bytes": 82789,
+      "sha256": "3eb9d4be12127c5324d08513c67b770c2390d72db0494bc8e847cf5645eca633"
+    },
+    {
+      "name": "Y13-XIAO-revO-inward-job.gbrjob",
+      "bytes": 2599,
+      "sha256": "849ca2985b3eb7ad35967ee873295e098a2cefc5610ddb621e5571e99b3be22b"
+    },
+    {
+      "name": "Y13-XIAO-revO-inward-NPTH.drl",
+      "bytes": 694,
+      "sha256": "fc9aed15c9b716b16b1dd9fe08a414b3edd8b989499d149bb482307d9aaf3ef0"
+    },
+    {
+      "name": "Y13-XIAO-revO-inward-PTH.drl",
+      "bytes": 3698,
+      "sha256": "ab21835f27dc2ed3fa592fd58c09651b1a9c32d5a296cbedf3299a1bbfe3f0cd"
+    }
+  ],
+  "switch_mount_sides": {
+    "left": "F",
+    "right": "F"
+  },
+  "module_mount_sides": {
+    "left": "B",
+    "right": "B"
+  },
+  "mount_configuration": "Both XIAO modules on B with components toward carrier; all power/reset switches on F.",
+  "additional_contact_holes": 18,
+  "additional_contact_drill_mm": 0.65,
+  "additional_pin_range": "D11-D19, each side",
+  "main_pad_diameter_mm": 1.4,
+  "main_drill_mm": 1.0,
+  "minimum_trace_width_mm": 0.13,
+  "signal_clearance_mm": 0.15,
+  "assembly_contact_method": "not selected"
+}
